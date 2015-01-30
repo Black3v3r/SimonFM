@@ -21,7 +21,7 @@
  - Jouer
  - Afficher les statistiques
  - Se déconnecter
-- In game
+- In game *(**WIP:** remplissage complet de la fenetre par les tuiles)*
  - 4 tuiles: une par coin
  - 5 tuiles: une par coin plus centre
  - 6 tuiles: pi/3
