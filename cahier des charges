@@ -19,6 +19,10 @@
  - Jouer
  - Afficher les statistiques
  - Se déconnecter
+- In game
+ - 4 tuiles: une par coin
+ - 5 tuiles: une par coin plus centre
+ - 6 tuiles: pi/3
 - En fin de partie
  - Rejouer
  - Menu principal
