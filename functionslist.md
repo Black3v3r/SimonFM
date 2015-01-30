@@ -13,6 +13,8 @@
 
 
 ##Jeu
+- Génération d'un pattern
+	- Couleur et durée
 
 ##Difficulté
 
