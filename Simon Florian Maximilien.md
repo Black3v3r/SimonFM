@@ -35,7 +35,7 @@
 
 ###Utilisateur
 - Créer un compte
- - Vérifier l'existance
+ - Vérifier l'existence
  - Demander login + mot de passe
  - hash + stockage
  - Créer fichier de stats
@@ -55,19 +55,27 @@
  - Échap (+ boutons de jeu ?)
 - Allumage bouton
 - Allumage par action (enfoncé)
-
-###Difficulté
 - Sélection de la difficulté
 
 ##Fichiers
 - Comptes utilisateurs (structures)
-- Statistiques
+- Statistiques générales (top 10)
 
 ##Structures
  - Compte
-  - Login, mot de passe (hash), 10 meilleurs scores
+  - Login *(\*char)*
+  - mot de passe (hash) *(\*char)*
+  - 10 meilleurs scores *(\*int)*
  - Bouton
-  - 
+  - ID
+  - position
+  - nom de fichier
+
+##Fichiers sources
+ - main.c
+ 
+
+----------
 
 ##Gestion des images
 1 image par bouton à découper
