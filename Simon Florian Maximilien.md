@@ -44,9 +44,16 @@
 
 ##Jeu
 - Génération d'un pattern
-	- Couleur et durée
+ - Couleur et durée
+- Détection du clic
+ - Quitter + boutons de jeu
+- Détection de l'appui de touches
+ - Échap (+ boutons de jeu ?)
+- Allumage bouton
+- Allumage par action (enfoncé)
 
 ##Difficulté
+- Sélection de la difficulté
 
 
 
