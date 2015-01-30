@@ -1,7 +1,9 @@
-##**Projet le jeu Simon**
+#**Projet le jeu Simon**
 
-###Analyse des besoins
-- Interface graphique (SDL 1.x ?)
+##**Spécifications**
+
+###Analyse des besoins / Objectifs et fonctionnalités
+- Interface graphique (SDL 2.x)
 - Gestion des utilisateurs
  - compte (login, mot de passe)
 - 3 niveaux de difficulté
@@ -27,22 +29,24 @@
  - Rejouer
  - Menu principal
 
+##**Conception détaillée**
 
-#**Fonctions**
+##Fonctions
 
-## Utilisateur
+###Utilisateur
 - Créer un compte
+ - Vérifier l'existance
  - Demander login + mot de passe
  - hash + stockage
  - Créer fichier de stats
 - Identification
- - Vérification login + mdp
+ - Vérification login + mdp, si inexistant, proposer de créer un compte
 - Statistiques
  - Actualiser en fin de partie
  - Afficher les statistiques
 
 
-##Jeu
+###Jeu
 - Génération d'un pattern
  - Couleur et durée
 - Détection du clic
@@ -52,10 +56,18 @@
 - Allumage bouton
 - Allumage par action (enfoncé)
 
-##Difficulté
+###Difficulté
 - Sélection de la difficulté
 
+##Fichiers
+- Comptes utilisateurs (structures)
+- Statistiques
 
+##Structures
+ - Compte
+  - Login, mot de passe (hash), 10 meilleurs scores
+ - Bouton
+  - 
 
 ##Gestion des images
 1 image par bouton à découper
