@@ -9,6 +9,7 @@
  - Vérification login + mdp
 - Statistiques
  - Actualiser en fin de partie
+ - Afficher les statistiques
 
 
 ##Jeu
